@@ -1,0 +1,21 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+
+# Local Python environments
+.venv/
+venv/
+env/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Downloaded MediaPipe model
+models/*.task
